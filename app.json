@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "test_rakuten",
+    "name": "楽天回線確認",
     "slug": "test_rakuten",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/rakuten_icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,9 +17,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "org.swallow.rnsample.app",
       "supportsTablet": true
     },
     "android": {
+      "package": "org.swallow.rnsample.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
