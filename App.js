@@ -17,9 +17,15 @@ export default function App() {
   return (
     <View style={styles.container}>
       {mnc === "11" ? (
-        <Text style={styles.text}>楽天回線です</Text>
+        <View>
+          <Text style={styles.text}>楽天回線です</Text>
+          <Text style={styles.text}>mncは{mnc}</Text>
+        </View>
       ) : (
-        <Text style={styles.text}>楽天回線ではありません</Text>
+        <View>
+          <Text style={styles.text}>楽天回線ではありません</Text>
+          <Text style={styles.text}>mncは{mnc}</Text>
+        </View>
       )}
       <TouchableOpacity onPress={onUpdateData} style={styles.button}>
         <Text style={styles.text}>更新</Text>
