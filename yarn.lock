@@ -2873,7 +2873,7 @@ expo-asset@~8.2.1:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
-expo-cellular@^2.4.0:
+expo-cellular@~2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/expo-cellular/-/expo-cellular-2.4.0.tgz#27491d5828c9401090db52f8899e6572ba3036df"
   integrity sha512-Q7CWmfNnJpi4YEaGQEzwOop3Df/ja/VQ6Rj2iTNDqSqzUwBKPFS64meRQrgBz/SiI7yj7P8jorMC8t3QsAAfpQ==
